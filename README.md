@@ -3,9 +3,7 @@
 This repository provides instructions on how to run Tonic Textual on Snowflake's Snowpark Container Service.  Tonic Textual makes it easy to identify sensitive information within free form text and then either redact or synthesize the information.  It can be used to test ETL pipelines on safe data or for generating synthetic text data for training generative AI models while preventing data leaks.  The benefit of running from Snowpark is that your data all stays within your Snowflake account.  The diagram below shows you how Textual interacts with your Snowflake Data.
 
 
-
-
-
+![alt text](<snowpark_arch.png>)
 
 
 # Setup
